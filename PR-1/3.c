@@ -1,8 +1,10 @@
 #include<stdio.h>
+#include<conio.h>
 
 main()
 {
 	float A,B,C;
+	clrsce();
 	
 	printf("Enter Angle A : ");
 	scanf("%f",&A);
@@ -12,6 +14,6 @@ main()
 	C = 180 - (A + B);
 	
 	printf("Angle C : %.2f",C);
-	
+	getch();
 }
 
