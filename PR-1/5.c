@@ -1,9 +1,10 @@
 #include<stdio.h>
+#include<conio.h>
 
 main()
 {
 	int A;
-	
+	clracr();
 	printf("Enter Value of A : ");
 	scanf("%d",&A);
 	
@@ -17,5 +18,6 @@ main()
 	printf("\n%d * 8 = %d",A,A*8);
 	printf("\n%d * 9 = %d",A,A*9);
 	printf("\n%d * 10 = %d",A,A*10);
+	getch();
 }
 
