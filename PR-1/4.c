@@ -1,8 +1,10 @@
 #include<stdio.h>
+#include<conio.h>
 
 main()
 {
 	int a,b;
+	clrace();
 	printf("Enter value : a");
 	scanf("%d",&a);
 	printf("Enter value : b");
@@ -14,5 +16,5 @@ main()
 	
 	printf("\nA : %d",a);
 	printf("\nB : %d",b);
-	
+	getch();
 }
