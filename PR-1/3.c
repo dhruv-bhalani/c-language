@@ -4,7 +4,7 @@
 main()
 {
 	float A,B,C;
-	clrsce();
+	clrscr();
 	
 	printf("Enter Angle A : ");
 	scanf("%f",&A);
