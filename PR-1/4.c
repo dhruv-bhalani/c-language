@@ -4,7 +4,7 @@
 main()
 {
 	int a,b;
-	clrace();
+	clracr();
 	printf("Enter value : a");
 	scanf("%d",&a);
 	printf("Enter value : b");
