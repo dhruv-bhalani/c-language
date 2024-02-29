@@ -2,7 +2,7 @@
 
 main()
 {
-	int n,i,sum=0;
+	int n,i;
 	
 	printf("Enter Size of Arryay : ");
 	scanf("%d",&n);
@@ -19,8 +19,7 @@ main()
 	for(i=0;i<n;i++)
 	{
 		printf("\n\na[%d] : %d\n",i,a[i]);
-		sum += a[i];
 	}
 	
-	printf("\n\nAverage of Array is : %d",sum/n);
+	printf("\n\nLength of Array is : %d",n);
 }
