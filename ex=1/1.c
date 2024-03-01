@@ -2,32 +2,14 @@
 
 main()
 {
-	int m,size,n,i,j;
+	int i,n,sum=0;
 	
-	printf("enter size array");
-	scanf("%d",&size);
-	int a[size];
+	printf("enter any number :");
+	scanf("%d",&n);
 	
-	for(i=0;i<size;i++)
+	for(i=0;i<=n;i++)
 	{
-		printf("emter a[%d]",i);
-		scanf("%d",&a[i]);
+		sum += i;
 	}
-	for(i=0;i<size;i++)
-	{
-		for(j=i+1;j<size;j++)
-		{
-			if(a[i]>a[j])
-			{
-				n = a[i];
-				a[i] = a[j];
-				a[j] = n;
-			}
-		}
-	}
-	
-	for(i=0;i<size;i++)
-	{
-		printf("a[%d]  : %d\n",i,a[i]);
-	}
+	printf("sum %d",sum);
 }
