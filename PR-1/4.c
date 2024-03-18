@@ -6,6 +6,7 @@ main()
 {
 	int a,b;
 	clrscr();
+	
 	printf("Enter value : a");
 	scanf("%d",&a);
 	printf("Enter value : b");
@@ -17,6 +18,7 @@ main()
 	
 	printf("\nA : %d",a);
 	printf("\nB : %d",b);
+	
 	getch();
 	
 }
